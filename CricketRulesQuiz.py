@@ -45,3 +45,4 @@ name = input("What is your name? ")
 print(f"Welcome {name}. Let's play a quiz!")
 
 print('hi')
+print('hi')
