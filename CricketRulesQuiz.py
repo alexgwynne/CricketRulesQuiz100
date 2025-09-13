@@ -44,16 +44,16 @@ quiz_options = {
     ],
     #LingoQuiz
     "LingoQuiz": [
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
+        {"question": "What does ‘getting a duck’ mean in cricket?", "options": ["Scoring exactly 100 runs in an innings", "Getting out without scoring any runs", "Taking 5 wickets in a match"], "answer": "Getting out without scoring any runs"},
+        {"question": "The piece of cricket equipment known as a ‘bail’ is used for what purpose?", "options": ["To place on top of the stumps", "To mark the boundary line", "To measure the pitch length"], "answer": "To place on top of the stumps"},
+        {"question": "The term ‘dolly’ is used to describe what in cricket?", "options": ["A batsman who scores very slowly", "A soft, easily caught ball", "A slow, underarm delivery"], "answer": "A soft, easily caught ball"},
+        {"question": "What does ‘square-leg’ mean?", "options": ["A fielding position on the leg side", "A type of bowling action", "An area outside the boundary"], "answer": "A fielding position on the leg side"},
+        {"question": "If the batsman has played an ‘agricultural shot’. What has he done?", "options": ["Played a technically perfect textbook shot", "Missed the ball completely and been bowled", "Played a wild, unsophisticated slog across the line"], "answer": "Played a wild, unsophisticated slog across the line"},
+        {"question": "If the bowler has bowled a dangerous delivery, what would that delivery be called?", "options": ["Beamer", "Boomer", "Beeker"], "answer": "Beamer"},
+        {"question": "Which country is known for the ‘baggy green’ cricket cap?", "options": ["Australia", "South Africa", "Pakistan"], "answer": "Australia"},
+        {"question": "If the cricket pitch is described as a ‘road’. Does it favour the bowler or the batter?", "options": ["Bowler", "Batter", "Neither"], "answer": "Batter"},
+        {"question": "What happens if the captain was to ‘declare’?", "options": ["The team forfeits the match", "The captain challenges an umpire's decision", "The batting team voluntarily ends their innings"], "answer": "The batting team voluntarily ends their innings"},
+        {"question": "If the batsman has scored a ‘century’, how many runs has he scored?", "options": ["100", "50", "0"], "answer": "100"},
     ]
 }
 
