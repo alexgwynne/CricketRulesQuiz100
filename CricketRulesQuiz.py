@@ -31,16 +31,16 @@ quiz_options = {
     ],
     #Trivia Quiz
     "TriviaQuiz": [
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
+        {"question": "Which player has scored the most test match runs of all time?", "options": ["Sachin Tendulkar", "Rahul Dravid", "Joe Root"], "answer": "Sachin Tendulkar"},
+        {"question": "Which player has taken the most test match wickets of all time?", "options": ["Shane Warne", "Jimmy Anderson", "Muttiah Muralitharan"], "answer": "Muttiah Muralitharan"},
+        {"question": "Which player has the best individual bowling figures of all time?", "options": ["Jim Laker", "Anil Kumble", "Ajaz Patel"], "answer": "Jim Laker"},
+        {"question": "Which player has scored the most runs in one inning?", "options": ["Brian Lara", "Matthew Hayden", "Garry Sobers"], "answer": "Brian Lara"},
+        {"question": "Which of these countries has never won a Cricket World Cup?", "options": ["England", "Pakistan", "New Zealand"], "answer": "New Zealand"},
+        {"question": "What year was the first Test match played?", "options": ["1776", "1877", "1905"], "answer": "1877"},
+        {"question": "What country did Don Bradman play for?", "options": ["England", "Australia", "South Africa"], "answer": "Australia"},
+        {"question": "Who has taken the most catches in test cricket as an outfielder?", "options": ["Joe Root", "Steve Waugh", "Mike Gatting"], "answer": "Joe Root"},
+        {"question": "Which player has the highest batting average in test cricket?", "options": ["Graeme Pollock", "Don Bradman", "Virat Kohli"], "answer": "Don Bradman"},
+        {"question": "Which of these players never captained their country?", "options": ["Brian Lara", "Rahul Dravid", "Muttiah Muralitharan"], "answer": "Muttiah Muralitharan"},
     ],
     #LingoQuiz
     "LingoQuiz": [
