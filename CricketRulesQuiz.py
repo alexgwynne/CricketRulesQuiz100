@@ -2,6 +2,7 @@
 #By Alex Gwynne
 
 #variables
+#Chatgpt was used to explain the functions of the 
 quiz_options = {
     #First Rules Quiz
     "EasyQuiz": [
@@ -60,7 +61,9 @@ quiz_options = {
 
 
 print("Welcome to the best quiz for learning the rules of cricket!")
-print("This quiz is suitable for people of varying experience playing cricket")
-print("Hopefully you will find this quiz helpful whether you are a player, coach or umpire")
+print("This quiz is suitable for people of varying experience playing cricket.")
+print("Hopefully you will find this quiz helpful whether you are a player, coach or umpire!")
 name = input("What is your name? ")
 print(f"Welcome {name}. Let's play a quiz!")
+
+
