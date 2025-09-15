@@ -2,8 +2,10 @@
 #By Alex Gwynne
 
 #variables
-#Chatgpt was used to explain the functions of the 
+#Chatgpt was used to understand the functions of the lists and dictionaries in this code
 quiz_options = {
+    #Each question and it's possible answers (for all four quizzes) are stored in dictionaries to keep the information together and related
+    #The possible answers are stored within lists inside the dictionaries so that they display in the right order
     #First Rules Quiz
     "EasyQuiz": [
         {"question": "Which of the following situations constitutes a ‘wide ball’ signal from the umpire?", "options": ["The ball passes the batter too wide to hit with a normal cricket shot", "The bowler delivers a full toss above waist height", "The bowler oversteps the front crease during delivery"], "answer": "The ball passes the batter too wide to hit with a normal cricket shot"},
