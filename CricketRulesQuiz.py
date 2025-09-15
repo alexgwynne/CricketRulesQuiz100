@@ -63,7 +63,8 @@ quiz_options = {
 print("Welcome to the best quiz for learning the rules of cricket!")
 print("This quiz is suitable for people of varying experience playing cricket.")
 print("Hopefully you will find this quiz helpful whether you are a player, coach or umpire!")
-name = input("What is your name? ")
-print(f"Welcome {name}. Let's play a quiz!")
+while true
+    name = input("What is your name? ")
+    print(f"Welcome {name}. Let's play a quiz!")
 
 
