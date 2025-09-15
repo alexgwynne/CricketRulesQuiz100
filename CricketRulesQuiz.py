@@ -67,6 +67,8 @@ while true:
     name = input("What is your name? ").strip()
     if name == "":
         print("Please enter your name!")
-    print(f"Welcome {name}. Let's play a quiz!")
+    else:
+        print(f"Welcome {name}. Let's play a quiz!")
+    break
 
 
