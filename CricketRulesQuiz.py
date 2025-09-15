@@ -63,7 +63,7 @@ quiz_options = {
 print("Welcome to the best quiz for learning the rules of cricket!")
 print("This quiz is suitable for people of varying experience playing cricket.")
 print("Hopefully you will find this quiz helpful whether you are a player, coach or umpire!")
-while true:
+while True:
     name = input("What is your name? ").strip()
     if name == "":
         print("Please enter your name!")
