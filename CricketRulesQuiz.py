@@ -19,19 +19,21 @@ quiz_options = {
         {"question": "What is the maximum number of fielders the fielding team can have behind the 90-degree angle on the leg side of the pitch?", "options": ["1", "2", "As many as they like"], "answer": "2"},
         {"question": "How many umpires are there for a cricket match?", "options": ["2", "3", "0"], "answer": "2"},
     ],
+
     #Second Rules Quiz
     "HardQuiz": [
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
-        {"question": "", "options": ["", "", ""], "answer": ""},
+        {"question": "What is the weight range that a new cricket ball must be within at the beginning of play?", "options": ["140 to 150 grams", "155.9 to 163 grams", "164.3 to 167 grams"], "answer": "155.9 to 163 grams"},
+        {"question": "When does the first powerplay end in a traditional length T20 and One Day match?", "options": ["5 and 15 overs", "6 and 10 overs", "8 and 12 overs"], "answer": "6 and 10 overs"},
+        {"question": "How long does the batsman have to be present at the crease after the last batter was dismissed?", "options": ["60 seconds", "120 seconds", "180 seconds"], "answer": "180 seconds"},
+        {"question": "When should a fielder repair the boundary if they were to damage it when fielding the ball?", "options": ["Immediately", "The next time the ball is dead", "They don't need to repair the boundary"], "answer": "The next time the ball is dead"},
+        {"question": "When can the pitch be watered during a match?", "options": ["When the groundsman deem it necessary", "At the request of either captain", "The pitch may not be watered during a match"], "answer": "The pitch may not be watered during a match"},
+        {"question": "Which of the following is not a legal method of fielding the ball?", "options": ["Using your foot", "Using your head", "Using your clothing"], "answer": "Using your clothing"},
+        {"question": "What happens if the bowler hits the wickets with their delivery, but the bails are not broken?", "options": ["The umpire signals dead ball", "The batter is out", "Play continues"], "answer": "Play continues"},
+        {"question": "What happens when a batter is dismissed by the bowler’s delivery, but there is no appeal from the fielders?", "options": ["The player is given Out by the umpire", "The player is Not Out", "The square-leg umpire can give the batter out"], "answer": "The player is Not Out"},
+        {"question": "After a delivery is completed, when does the ball next become ‘in-play’?", "options": ["When the bowler begins their run-up", "When the ball has been returned to the bowler", "When the batter takes guard"], "answer": "When the bowler begins their run-up"},
+        {"question": "What will the umpire do if they deem a fielder to have unfairly distracted the batter during a delivery?", "options": ["Call a No-Ball", "Give the fielder a warning only", "Award 5 penalty runs"], "answer": "Award 5 penalty runs"},
     ],
+
     #Trivia Quiz
     "TriviaQuiz": [
         {"question": "Which player has scored the most test match runs of all time?", "options": ["Sachin Tendulkar", "Rahul Dravid", "Joe Root"], "answer": "Sachin Tendulkar"},
@@ -45,6 +47,7 @@ quiz_options = {
         {"question": "Which player has the highest batting average in test cricket?", "options": ["Graeme Pollock", "Don Bradman", "Virat Kohli"], "answer": "Don Bradman"},
         {"question": "Which of these players never captained their country?", "options": ["Brian Lara", "Rahul Dravid", "Muttiah Muralitharan"], "answer": "Muttiah Muralitharan"},
     ],
+
     #LingoQuiz
     "LingoQuiz": [
         {"question": "What does ‘getting a duck’ mean in cricket?", "options": ["Scoring exactly 100 runs in an innings", "Getting out without scoring any runs", "Taking 5 wickets in a match"], "answer": "Getting out without scoring any runs"},
