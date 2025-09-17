@@ -1,5 +1,6 @@
 #Cricket Rules Quiz
 #By Alex Gwynne
+#All comments are written above what they are commenting on
 
 #Variables
 #Chatgpt was used to understand the functions of the lists and dictionaries in this code
@@ -83,6 +84,7 @@ while True:
         print(f"Welcome {name}. Let's play a quiz!")
         break
 
+#Code that runs the quiz for the user to play
 def run_quiz(name_quiz):
     #This line of code retrieves the questions from the dictionaries above for the quiz the user picked
     questions = quiz_options [name_quiz]
@@ -93,7 +95,7 @@ def run_quiz(name_quiz):
         print("{i}: {q['question']}")
         for idx, option in enumerate(q["options"], start=1):
             print(f" {idx}.{option}")
-    
+    #This code is for the user to input the answer they want to put to the question. I added the 'try' function so that if the user does not put a valid answer to the question, the code doesn't break
         try:
             choice = int(input("Select your answer: "))
             if q["options"][choice - 1] == q["answer"]:
@@ -101,11 +103,14 @@ def run_quiz(name_quiz):
                 score += 1
             else:
                 print("\nThat was not the correct answer\n")
+        #except only runs if the user doesn't put a valid answer to the question (1,2 or 3) so if they put 6 this code would run
         except (IndexError ValueError):
             print("\nThat was not an option!")
             print("Entering invalid answers will forfeit your attempt at this question\n")
+    #Ending message
     print("Nice Job!")
     print(f"You completed the {name_quiz}")
     print(f"Your score on the quiz was {score}/{len(questions)}")
 
+#Code that lets the user decide which of the four quizzes they want to play
 def main ():
