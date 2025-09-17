@@ -1,7 +1,7 @@
 #Cricket Rules Quiz
 #By Alex Gwynne
 
-#variables
+#Variables
 #Chatgpt was used to understand the functions of the lists and dictionaries in this code
 quiz_options = {
     #Each question and it's possible answers (for all four quizzes) are stored in dictionaries to keep the information together and related
@@ -96,5 +96,6 @@ def run_quiz(name_quiz):
                 print("\nThat is correct!\n")
                 score += 1
             else:
+                print("\nThat was not the correct answer\n")
 
 def main ():
