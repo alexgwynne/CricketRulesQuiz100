@@ -104,5 +104,8 @@ def run_quiz(name_quiz):
         except (IndexError ValueError):
             print("\nThat was not an option!")
             print("Entering invalid answers will forfeit your attempt at this question\n")
+    print("Nice Job!")
+    print(f"You completed the {name_quiz}")
+    print(f"Your score on the quiz was {score}/{len(questions)}")
 
 def main ():
