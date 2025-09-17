@@ -89,6 +89,11 @@ def run_quiz(name_quiz):
         print("{i}: {q['question']}")
         for idx, option in enumerate(q["options"], start=1):
             print(f" {idx}.{option}")
-
+    
+        try:
+           choice = int(input("Select your answer: "))
+           if q["options"][choice - 1] == q["answer"]:
+               print("\nThat is correct!\n")
+               score += 1
 
 def main ():
