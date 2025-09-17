@@ -68,7 +68,7 @@ quiz_options = {
 print("Welcome to the best quiz for learning the rules of cricket!")
 print("This quiz is suitable for people of varying experience playing cricket.")
 print("Hopefully you will find this quiz helpful whether you are a player, coach or umpire!")
-#while loop that runs until the user enters a valid name
+#While loop that runs until the user enters a valid name
 while True:
     name = input("What is your name? ").strip()
     #if the user does not type anything before pressing enter, this message displays and they are instructed to enter their name again
@@ -79,4 +79,4 @@ while True:
         print(f"Welcome {name}. Let's play a quiz!")
         break
 
-
+def main ():
