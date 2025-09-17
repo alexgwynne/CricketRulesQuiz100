@@ -79,4 +79,6 @@ while True:
         print(f"Welcome {name}. Let's play a quiz!")
         break
 
+def run_quiz(name_quiz):
 def main ():
+
