@@ -114,3 +114,4 @@ def run_quiz(name_quiz):
 
 #Code that lets the user decide which of the four quizzes they want to play
 def main ():
+    while True:
