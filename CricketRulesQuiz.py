@@ -80,5 +80,7 @@ while True:
         break
 
 def run_quiz(name_quiz):
+    #This line of code retrieves the questions from the dictionaries above for the quiz the user picked
+    questions = quiz_options [name_quiz]
 def main ():
 
