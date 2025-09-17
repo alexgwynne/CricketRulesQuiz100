@@ -91,6 +91,7 @@ def run_quiz(name_quiz):
     questions = quiz_options [name_quiz]
     #This code defines the score variable that will increase when the user gets a question right
     score = 0
+    #I used Chatgpt to write the code that enumerates the questions
     print(f"\nThe '{name_quiz}' is about to begin!\n")
     for i, q in enumerate (questions, start=1):
         print("{i}: {q['question']}")
@@ -119,3 +120,4 @@ def main ():
         print("These are the four quizzes you can play!")
         for idx, name_quiz in enumerate(quizzes, start=1):
             print(f"{idx}.{name_quiz}")
+        quiz = int(input("Choose a quiz to play by typing it's number "))
