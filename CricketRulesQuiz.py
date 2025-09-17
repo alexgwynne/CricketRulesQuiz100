@@ -84,6 +84,7 @@ def run_quiz(name_quiz):
     questions = quiz_options [name_quiz]
     #This code defines the score variable that will increase when the user gets a question right
     score = 0
+    print(f"\nThe '{name_quiz}' is about to begin!\n")
 
 
 def main ():
