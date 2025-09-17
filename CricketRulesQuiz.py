@@ -86,6 +86,9 @@ def run_quiz(name_quiz):
     score = 0
     print(f"\nThe '{name_quiz}' is about to begin!\n")
     for i, q in enumerate (questions, start=1):
+        print("{i}: {q['question']}")
+        for idx, option in enumerate(q["options"], start=1):
+            print(f" {idx}.{option}")
 
 
 def main ():
