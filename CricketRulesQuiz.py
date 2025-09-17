@@ -101,5 +101,8 @@ def run_quiz(name_quiz):
                 score += 1
             else:
                 print("\nThat was not the correct answer\n")
+        except (IndexError ValueError):
+            print("\nThat was not an option!")
+            print("Entering invalid answers will forfeit your attempt at this question\n")
 
 def main ():
