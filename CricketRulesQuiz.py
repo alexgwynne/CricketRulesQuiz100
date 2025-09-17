@@ -85,6 +85,7 @@ while True:
         break
 
 #Code that runs the quiz for the user to play
+#I used Chatgpt to learn what things like enumerate do. This helped me to write the code
 def run_quiz(name_quiz):
     #This line of code retrieves the questions from the dictionaries above for the quiz the user picked
     questions = quiz_options [name_quiz]
@@ -115,3 +116,6 @@ def run_quiz(name_quiz):
 #Code that lets the user decide which of the four quizzes they want to play
 def main ():
     while True:
+        print("These are the four quizzes you can play!")
+        for idx, name_quiz in enumerate(quizzes, start=1):
+            print(f"{idx}.{name_quiz}")
