@@ -8,6 +8,7 @@ quiz_options = {
     #The possible answers are stored within lists inside the dictionaries so that they display in the right order
     #First Rules Quiz
     "EasyQuiz": [
+        #Dictionaries for the questions
         {"question": "Which of the following situations constitutes a ‘wide ball’ signal from the umpire?", "options": ["The ball passes the batter too wide to hit with a normal cricket shot", "The bowler delivers a full toss above waist height", "The bowler oversteps the front crease during delivery"], "answer": "The ball passes the batter too wide to hit with a normal cricket shot"},
         {"question": "Which of the following situations constitutes a ‘no ball’ signal from the umpire?", "options": ["The bowler runs in to deliver the ball but pulls out", "The bowler delivers a full toss above waist height", "The batter hits his own stumps"], "answer": "The bowler delivers a full toss above waist height"},
         {"question": "If the batsman hits the ball over the boundary on the full, how many runs are awarded?", "options": ["4", "6", "7"], "answer": "6"},
@@ -22,6 +23,7 @@ quiz_options = {
 
     #Second Rules Quiz
     "HardQuiz": [
+        #Dictionaries for the questions
         {"question": "What is the weight range that a new cricket ball must be within at the beginning of play?", "options": ["140 to 150 grams", "155.9 to 163 grams", "164.3 to 167 grams"], "answer": "155.9 to 163 grams"},
         {"question": "When does the first powerplay end in a traditional length T20 and One Day match?", "options": ["5 and 15 overs", "6 and 10 overs", "8 and 12 overs"], "answer": "6 and 10 overs"},
         {"question": "How long does the batsman have to be present at the crease after the last batter was dismissed?", "options": ["60 seconds", "120 seconds", "180 seconds"], "answer": "180 seconds"},
@@ -36,6 +38,7 @@ quiz_options = {
 
     #Trivia Quiz
     "TriviaQuiz": [
+        #Dictionaries for the questions
         {"question": "Which player has scored the most test match runs of all time?", "options": ["Sachin Tendulkar", "Rahul Dravid", "Joe Root"], "answer": "Sachin Tendulkar"},
         {"question": "Which player has taken the most test match wickets of all time?", "options": ["Shane Warne", "Jimmy Anderson", "Muttiah Muralitharan"], "answer": "Muttiah Muralitharan"},
         {"question": "Which player has the best individual bowling figures of all time?", "options": ["Jim Laker", "Anil Kumble", "Ajaz Patel"], "answer": "Jim Laker"},
@@ -50,6 +53,7 @@ quiz_options = {
 
     #LingoQuiz
     "LingoQuiz": [
+        #Dictionaries for the questions
         {"question": "What does ‘getting a duck’ mean in cricket?", "options": ["Scoring exactly 100 runs in an innings", "Getting out without scoring any runs", "Taking 5 wickets in a match"], "answer": "Getting out without scoring any runs"},
         {"question": "The piece of cricket equipment known as a ‘bail’ is used for what purpose?", "options": ["To place on top of the stumps", "To mark the boundary line", "To measure the pitch length"], "answer": "To place on top of the stumps"},
         {"question": "The term ‘dolly’ is used to describe what in cricket?", "options": ["A batsman who scores very slowly", "A soft, easily caught ball", "A slow, underarm delivery"], "answer": "A soft, easily caught ball"},
