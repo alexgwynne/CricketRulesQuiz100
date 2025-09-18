@@ -1,6 +1,7 @@
 #Cricket Rules Quiz
 #By Alex Gwynne
 #All comments are written above what they are commenting on
+#I did use Chatgpt for different parts during the creation of this quiz. Mainly to explain to me what some of the more complicated code meant that was required for me to build this program and to find out what parts of my code were stopping the program from running
 
 #Variables
 #Chatgpt was used to understand the functions of the lists and dictionaries in this code
