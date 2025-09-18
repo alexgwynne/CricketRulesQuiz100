@@ -118,6 +118,11 @@ def run_quiz(name_quiz):
 def main ():
     while True:
         print("These are the four quizzes you can play!")
-        for idx, name_quiz in enumerate(quizzes, start=1):
+        for idx, name_quiz in enumerate(quiz_options, start=1):
             print(f"{idx}.{name_quiz}")
         quiz = int(input("Choose a quiz to play by typing it's number "))
+        if 1 <= quiz <= len(name_quiz):
+            selected_quiz = name_quiz[quiz - 1]
+            run_quiz(selected_quiz, quiz_options[selected_quiz])
+        else:
+            print("That's not a quiz number!")
