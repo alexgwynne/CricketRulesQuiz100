@@ -94,7 +94,7 @@ def run_quiz(name_quiz):
     #I used Chatgpt to write the code that enumerates the questions
     print(f"\nThe '{name_quiz}' is about to begin!\n")
     for i, q in enumerate (questions, start=1):
-        print("{i}: {q['question']}")
+        print(f"{i}: {q['question']}")
         for idx, option in enumerate(q["options"], start=1):
             print(f" {idx}.{option}")
     #This code is for the user to input the answer they want to put to the question. I added the 'try' function so that if the user does not put a valid answer to the question, the code doesn't break
@@ -118,11 +118,18 @@ def run_quiz(name_quiz):
 def main ():
     while True:
         print("These are the four quizzes you can play!")
+        quiz_names = list(quiz_options.keys())
+
         for idx, name_quiz in enumerate(quiz_options, start=1):
             print(f"{idx}.{name_quiz}")
+        print(f"{len(quiz_names)+1}. Exit")
+
         quiz = int(input("Choose a quiz to play by typing it's number "))
         if 1 <= quiz <= len(name_quiz):
             selected_quiz = name_quiz[quiz - 1]
             run_quiz(selected_quiz, quiz_options[selected_quiz])
         else:
             print("That's not a quiz number!")
+            
+if __name__ == "__main__":
+    main()
