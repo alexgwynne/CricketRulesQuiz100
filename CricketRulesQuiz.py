@@ -125,11 +125,11 @@ def main ():
         print(f"{len(quiz_names)+1}. Exit")
 
         quiz = int(input("Choose a quiz to play by typing it's number "))
-        if 1 <= quiz <= len(name_quiz):
-            selected_quiz = name_quiz[quiz - 1]
-            run_quiz(selected_quiz, quiz_options[selected_quiz])
+        if 1 <= quiz <= len(quiz_names):
+            selected_quiz = quiz_names[quiz - 1]
+            run_quiz(selected_quiz)
         else:
             print("That's not a quiz number!")
-            
+
 if __name__ == "__main__":
     main()
