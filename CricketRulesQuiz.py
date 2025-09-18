@@ -93,6 +93,7 @@ def run_quiz(name_quiz):
     score = 0
     #I used Chatgpt to write the code that enumerates the questions
     print(f"\nThe '{name_quiz}' is about to begin!\n")
+    #In this code 'i' is the question number and 'q' is the actual question from the dictionary above. The question number starts at 1 because of the 'questions, start=1' code
     for i, q in enumerate (questions, start=1):
         print(f"{i}: {q['question']}")
         for idx, option in enumerate(q["options"], start=1):
@@ -100,9 +101,11 @@ def run_quiz(name_quiz):
     #This code is for the user to input the answer they want to put to the question. I added the 'try' function so that if the user does not put a valid answer to the question, the code doesn't break
         try:
             choice = int(input("Select your answer: "))
+            #Prints if the option number the user selected was right
             if q["options"][choice - 1] == q["answer"]:
                 print("\nThat is correct!\n")
                 score += 1
+            #Prints if the user puts a valid answer but its wrong
             else:
                 print("\nThat was not the correct answer\n")
         #except only runs if the user doesn't put a valid answer to the question (1,2 or 3) so if they put 6 this code would run
@@ -112,24 +115,31 @@ def run_quiz(name_quiz):
     #Ending message
     print("Nice Job!")
     print(f"You completed the {name_quiz}")
+    #This code prints the users score out of the number of questions in the quiz. Each quiz has 10 questions so it will always be out of 10 but if the quizzes had different amounts of questions this message would change depending on the number of total questions
+    #len counts the length (number of questions) in the above quiz lists
     print(f"Your score on the quiz was {score}/{len(questions)}")
 
 #Code that lets the user decide which of the four quizzes they want to play
 def main ():
+    #while true makes this code run again when the user is finished the quiz. This makes it so the user can play another quiz
     while True:
         print("These are the four quizzes you can play!")
         quiz_names = list(quiz_options.keys())
 
         for idx, name_quiz in enumerate(quiz_options, start=1):
             print(f"{idx}.{name_quiz}")
+        #prints an exit option for the user as well as the quiz options
         print(f"{len(quiz_names)+1}. Exit")
 
         quiz = int(input("Choose a quiz to play by typing it's number "))
+        #Code that makes the selcted quiz run
         if 1 <= quiz <= len(quiz_names):
             selected_quiz = quiz_names[quiz - 1]
             run_quiz(selected_quiz)
+        #prints if the user didn't type the number for a quiz
         else:
             print("That's not a quiz number!")
 
+#Chatgpt suggested this code when I asked it why the program was stopping at the name input
 if __name__ == "__main__":
     main()
