@@ -124,7 +124,7 @@ def run_quiz(name_quiz):
 def main ():
     #while true makes this code run again when the user is finished the quiz. This makes it so the user can play another quiz
     while True:
-        print("These are the four quizzes you can play!")
+        print("These are the four cricket related quizzes you can play!")
         quiz_names = list(quiz_options.keys())
 
         for idx, name_quiz in enumerate(quiz_options, start=1):
