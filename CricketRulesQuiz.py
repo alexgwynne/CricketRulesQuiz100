@@ -138,6 +138,10 @@ def main ():
         if 1 <= quiz <= len(quiz_names):
             selected_quiz = quiz_names[quiz - 1]
             run_quiz(selected_quiz)
+        #prints if the user selects number 5 which is the exit option
+        elif quiz == len(quiz_names) + 1:
+            print("Thanks for playing the Cricket Rules Quiz! Goodbye")
+            break
         #prints if the user didn't type the number for a quiz
         else:
             print("That's not a quiz number!")
