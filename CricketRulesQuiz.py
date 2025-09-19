@@ -109,6 +109,7 @@ def run_quiz(name_quiz):
             #Prints if the user puts a valid answer but its wrong
             else:
                 print("\nThat was not the correct answer\n")
+                print(f"The correct answer was {q['answer']}\n")
         #except only runs if the user doesn't put a valid answer to the question (1,2 or 3) so if they put 6 this code would run
         except (IndexError,ValueError):
             print("\nThat was not an option!")
